@@ -10,7 +10,8 @@
 		295B7E8C233DE749002898C9 /* SwiftUICompatKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 295B7E82233DE749002898C9 /* SwiftUICompatKit.framework */; };
 		295B7E91233DE749002898C9 /* SwiftUICompatKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295B7E90233DE749002898C9 /* SwiftUICompatKitTests.swift */; };
 		295B7E93233DE749002898C9 /* SwiftUICompatKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 295B7E85233DE749002898C9 /* SwiftUICompatKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		295B7E9D233DE767002898C9 /* UIImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295B7E9C233DE767002898C9 /* UIImagePicker.swift */; };
+		295B7E9D233DE767002898C9 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295B7E9C233DE767002898C9 /* ImagePicker.swift */; };
+		29F4B5D8233DFC7900F2C2BA /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F4B5D7233DFC7900F2C2BA /* CollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +31,8 @@
 		295B7E8B233DE749002898C9 /* SwiftUICompatKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUICompatKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		295B7E90233DE749002898C9 /* SwiftUICompatKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICompatKitTests.swift; sourceTree = "<group>"; };
 		295B7E92233DE749002898C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		295B7E9C233DE767002898C9 /* UIImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImagePicker.swift; sourceTree = "<group>"; };
+		295B7E9C233DE767002898C9 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		29F4B5D7233DFC7900F2C2BA /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,9 +75,9 @@
 		295B7E84233DE749002898C9 /* SwiftUICompatKit */ = {
 			isa = PBXGroup;
 			children = (
+				29F4B5D6233DFC5E00F2C2BA /* Controls */,
 				295B7E85233DE749002898C9 /* SwiftUICompatKit.h */,
 				295B7E86233DE749002898C9 /* Info.plist */,
-				295B7E9C233DE767002898C9 /* UIImagePicker.swift */,
 			);
 			path = SwiftUICompatKit;
 			sourceTree = "<group>";
@@ -87,6 +89,15 @@
 				295B7E92233DE749002898C9 /* Info.plist */,
 			);
 			path = SwiftUICompatKitTests;
+			sourceTree = "<group>";
+		};
+		29F4B5D6233DFC5E00F2C2BA /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				295B7E9C233DE767002898C9 /* ImagePicker.swift */,
+				29F4B5D7233DFC7900F2C2BA /* CollectionView.swift */,
+			);
+			path = Controls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +210,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				295B7E9D233DE767002898C9 /* UIImagePicker.swift in Sources */,
+				29F4B5D8233DFC7900F2C2BA /* CollectionView.swift in Sources */,
+				295B7E9D233DE767002898C9 /* ImagePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  UIImagePicker.swift
+//  ImagePicker.swift
 //  SwiftUICompatKit
 //
 //  Created by Amir on 27/9/19.

@@ -9,7 +9,7 @@ SwiftUICompatKit is an open source project that enables accessing controls that 
 | UIActivityIndicatorView     | - | - |
 |UIBarButtonItem | NavigationView, .navigationBarItems| - |
 |UIButton | Button| - |
-|UICollectionView | - | - |
+|UICollectionView | - | CollectionView |
 |UIDatePicker | DatePicker| - |
 |UIImageView | Image | - |
 |UILabel | Text | - |
@@ -17,7 +17,7 @@ SwiftUICompatKit is an open source project that enables accessing controls that 
 |UIPageControl | - | - |
 |UIPickerView | Picker | - |
 |UIScrollView | ScrollView | - |
-|UISegmentedControl | Picker,.SegmentedPickerStyle| - |
+|UISegmentedControl | Picker, .segmentedPickerStyle| - |
 |UISlider | Slider | - |
 |UIStackView | HStack, VStack | - |
 |UIStepper | Stepper | - |
@@ -33,8 +33,8 @@ View Controllers:
 | UIKit        | SwiftUI           | SwiftUICompatKit  |
 | ------------- |:-------------:| -----:|
 |UIActivityViewController | - | - |
-|UIAlertController | - | - |
-|UICollectionViewController | - | - |
+|UIAlertController | - | View, .alert |
+|UICollectionViewController | [Complex Interface](https://developer.apple.com/tutorials/swiftui/composing-complex-interfaces). | - |
 |UIImagePickerController | - | ImagePicker |
 |UINavigationController | - | - |
 |UIPageViewController | - | - |

@@ -15,6 +15,9 @@ struct ContentView: View {
                 NavigationLink(destination: ImagePickerExample()){
                     Text("Image picker")
                 }
+                NavigationLink(destination: CollectionViewExample()){
+                    Text("Collection view")
+                }
             }.navigationBarTitle("Examples")
         }
     }

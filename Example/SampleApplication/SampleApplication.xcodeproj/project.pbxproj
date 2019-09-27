@@ -19,6 +19,7 @@
 		295B7EEB233DEC82002898C9 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 295B7EEA233DEC81002898C9 /* Readme.md */; };
 		29C92A1B233DED96005F5C05 /* SwiftUICompatKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C92A1A233DED96005F5C05 /* SwiftUICompatKit.framework */; };
 		29C92A1C233DED96005F5C05 /* SwiftUICompatKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 29C92A1A233DED96005F5C05 /* SwiftUICompatKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		29F4B5DA233E060B00F2C2BA /* CollectionViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F4B5D9233E060B00F2C2BA /* CollectionViewExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		295B7EE4233DE897002898C9 /* ImagePickerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImagePickerExample.swift; path = ../../../../Example/SampleApplication/SampleApplication/Examples/ImagePickerExample.swift; sourceTree = "<group>"; };
 		295B7EEA233DEC81002898C9 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = Readme.md; path = ../../../Readme.md; sourceTree = "<group>"; };
 		29C92A1A233DED96005F5C05 /* SwiftUICompatKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftUICompatKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29F4B5D9233E060B00F2C2BA /* CollectionViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				295B7EE4233DE897002898C9 /* ImagePickerExample.swift */,
+				29F4B5D9233E060B00F2C2BA /* CollectionViewExample.swift */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				295B7EAB233DE7B4002898C9 /* AppDelegate.swift in Sources */,
 				295B7EAD233DE7B4002898C9 /* SceneDelegate.swift in Sources */,
 				295B7EAF233DE7B4002898C9 /* ContentView.swift in Sources */,
+				29F4B5DA233E060B00F2C2BA /* CollectionViewExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
