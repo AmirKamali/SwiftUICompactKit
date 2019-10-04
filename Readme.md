@@ -6,7 +6,7 @@ SwiftUICompatKit is an open source project that enables accessing controls that 
 
 | UIKit        | SwiftUI           | SwiftUICompatKit  |
 | ------------- |:-------------:| -----:|
-| UIActivityIndicatorView     | - | - |
+| UIActivityIndicatorView     | - | ActivityIndicator |
 |UIBarButtonItem | NavigationView, .navigationBarItems| - |
 |UIButton | Button| - |
 |UICollectionView | - | CollectionView |
@@ -34,7 +34,7 @@ View Controllers:
 | ------------- |:-------------:| -----:|
 |UIActivityViewController | - | - |
 |UIAlertController | - | View, .alert |
-|UICollectionViewController | [Complex Interface](https://developer.apple.com/tutorials/swiftui/composing-complex-interfaces). | - |
+|UICollectionViewController | [Complex Interface](https://developer.apple.com/tutorials/swiftui/composing-complex-interfaces). | CollectionView |
 |UIImagePickerController | - | ImagePicker |
 |UINavigationController | - | - |
 |UIPageViewController | - | - |

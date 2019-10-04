@@ -18,6 +18,10 @@ struct ContentView: View {
                 NavigationLink(destination: CollectionViewExample()){
                     Text("Collection view")
                 }
+                NavigationLink(destination: ActivityIndicatorExample()){
+                    Text("Activity Indicator")
+                }
+                
             }.navigationBarTitle("Examples")
         }
     }

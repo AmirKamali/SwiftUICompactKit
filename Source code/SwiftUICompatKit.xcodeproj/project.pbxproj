@@ -11,6 +11,7 @@
 		295B7E91233DE749002898C9 /* SwiftUICompatKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295B7E90233DE749002898C9 /* SwiftUICompatKitTests.swift */; };
 		295B7E93233DE749002898C9 /* SwiftUICompatKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 295B7E85233DE749002898C9 /* SwiftUICompatKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		295B7E9D233DE767002898C9 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295B7E9C233DE767002898C9 /* ImagePicker.swift */; };
+		296FE7DD23470D07007A3D8A /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296FE7DC23470D07007A3D8A /* ActivityIndicator.swift */; };
 		29F4B5D8233DFC7900F2C2BA /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F4B5D7233DFC7900F2C2BA /* CollectionView.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		295B7E90233DE749002898C9 /* SwiftUICompatKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICompatKitTests.swift; sourceTree = "<group>"; };
 		295B7E92233DE749002898C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		295B7E9C233DE767002898C9 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		296FE7DC23470D07007A3D8A /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		29F4B5D7233DFC7900F2C2BA /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,6 +98,7 @@
 			children = (
 				295B7E9C233DE767002898C9 /* ImagePicker.swift */,
 				29F4B5D7233DFC7900F2C2BA /* CollectionView.swift */,
+				296FE7DC23470D07007A3D8A /* ActivityIndicator.swift */,
 			);
 			path = Controls;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29F4B5D8233DFC7900F2C2BA /* CollectionView.swift in Sources */,
+				296FE7DD23470D07007A3D8A /* ActivityIndicator.swift in Sources */,
 				295B7E9D233DE767002898C9 /* ImagePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
