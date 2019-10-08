@@ -2,15 +2,20 @@
 # Introduction
 SwiftUICompatKit is an open source project that enables accessing controls that has not been developed or have limited functionality in SwiftUI.
 
+This library is actively being updated. To view the latest status of the development, check the below table.
+
+
+## Examples
+Click on the individual links from SwiftUICompatKit column to view the example use of each control.
 
 ## Current State of Development.
 
 | UIKit        | SwiftUI           | SwiftUICompatKit  |
 | ------------- |:-------------:| -----:|
-| UIActivityIndicatorView     | - | ActivityIndicator |
+| UIActivityIndicatorView     | - | [ActivityIndicator](https://github.com/AmirKamali/SwiftUICompactKit/blob/master/Example/SampleApplication/SampleApplication/Examples/ActivityIndicatorExample.swift) |
 |UIBarButtonItem | NavigationView, .navigationBarItems| - |
 |UIButton | Button| - |
-|UICollectionView | - | CollectionView |
+|UICollectionView | - | [CollectionView](https://github.com/AmirKamali/SwiftUICompactKit/blob/master/Example/SampleApplication/SampleApplication/Examples/CollectionViewExample.swift) |
 |UIDatePicker | DatePicker| - |
 |UIImageView | Image | - |
 |UILabel | Text | - |
@@ -34,9 +39,9 @@ View Controllers:
 | UIKit        | SwiftUI           | SwiftUICompatKit  |
 | ------------- |:-------------:| -----:|
 |UIActivityViewController | - | - |
-|UIAlertController | - | View, .alert |
-|UICollectionViewController | [Complex Interface](https://developer.apple.com/tutorials/swiftui/composing-complex-interfaces). | CollectionView |
-|UIImagePickerController | - | ImagePicker |
+|UIAlertController | View, .alert | - |
+|UICollectionViewController | [Complex Interface](https://developer.apple.com/tutorials/swiftui/composing-complex-interfaces) | [CollectionView](https://github.com/AmirKamali/SwiftUICompactKit/blob/master/Example/SampleApplication/SampleApplication/Examples/CollectionViewExample.swift) |
+|UIImagePickerController | - | [ImagePicker](https://github.com/AmirKamali/SwiftUICompactKit/blob/master/Example/SampleApplication/SampleApplication/Examples/ImagePickerExample.swift) |
 |UINavigationController | - | - |
 |UIPageViewController | - | - |
 |UISearchController | - | - |
