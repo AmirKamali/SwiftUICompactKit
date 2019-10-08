@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		295B7E8C233DE749002898C9 /* SwiftUICompatKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 295B7E82233DE749002898C9 /* SwiftUICompatKit.framework */; };
-		295B7E91233DE749002898C9 /* SwiftUICompatKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295B7E90233DE749002898C9 /* SwiftUICompatKitTests.swift */; };
 		295B7E93233DE749002898C9 /* SwiftUICompatKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 295B7E85233DE749002898C9 /* SwiftUICompatKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		295B7E9D233DE767002898C9 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295B7E9C233DE767002898C9 /* ImagePicker.swift */; };
 		296FE7DD23470D07007A3D8A /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296FE7DC23470D07007A3D8A /* ActivityIndicator.swift */; };
@@ -30,8 +29,6 @@
 		295B7E85233DE749002898C9 /* SwiftUICompatKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftUICompatKit.h; sourceTree = "<group>"; };
 		295B7E86233DE749002898C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		295B7E8B233DE749002898C9 /* SwiftUICompatKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUICompatKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		295B7E90233DE749002898C9 /* SwiftUICompatKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICompatKitTests.swift; sourceTree = "<group>"; };
-		295B7E92233DE749002898C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		295B7E9C233DE767002898C9 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		296FE7DC23470D07007A3D8A /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		29F4B5D7233DFC7900F2C2BA /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
@@ -60,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				295B7E84233DE749002898C9 /* SwiftUICompatKit */,
-				295B7E8F233DE749002898C9 /* SwiftUICompatKitTests */,
 				295B7E83233DE749002898C9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,15 +78,6 @@
 				295B7E86233DE749002898C9 /* Info.plist */,
 			);
 			path = SwiftUICompatKit;
-			sourceTree = "<group>";
-		};
-		295B7E8F233DE749002898C9 /* SwiftUICompatKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				295B7E90233DE749002898C9 /* SwiftUICompatKitTests.swift */,
-				295B7E92233DE749002898C9 /* Info.plist */,
-			);
-			path = SwiftUICompatKitTests;
 			sourceTree = "<group>";
 		};
 		29F4B5D6233DFC5E00F2C2BA /* Controls */ = {
@@ -223,7 +210,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				295B7E91233DE749002898C9 /* SwiftUICompatKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

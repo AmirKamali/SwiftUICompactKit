@@ -1,3 +1,4 @@
+![](https://github.com/AmirKamali/SwiftUICompactKit/blob/master/header.jpg)
 # Introduction
 SwiftUICompatKit is an open source project that enables accessing controls that has not been developed or have limited functionality in SwiftUI.
 
@@ -44,3 +45,16 @@ View Controllers:
 |UITableViewController | List  | - |
 |UIVideoEditorController | - | - |
 |UIViewController | View  | - |
+
+
+
+
+Installation:
+
+## SwiftPackages
+
+Requirements: XCode 10.5 +
+
+In XCode Select:  `File > Swift Packages > Add Package Dependency`
+
+URL : `https://github.com/AmirKamali/SwiftUICompactKit`

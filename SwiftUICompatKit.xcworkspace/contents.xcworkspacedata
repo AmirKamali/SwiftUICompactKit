@@ -5,6 +5,9 @@
       location = "group:Example/SampleApplication/SampleApplication.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Source code/SwiftUICompatKit.xcodeproj">
+      location = "group:Sources/SwiftUICompatKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:">
    </FileRef>
 </Workspace>
